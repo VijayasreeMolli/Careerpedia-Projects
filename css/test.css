@@ -1,0 +1,47 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.parent{
+    width:40%;
+    height:50vh;
+    border: 2px solid blue;
+    background-color: yellowgreen;
+    transition: all 1s ease-in 1s;
+}
+p{
+    font-size: 1.5rem;
+    color:brown;
+    transition: all 1s ease-in 1s;
+}
+.parent:hover{
+    border:5px dotted red;
+    background-color: aquamarine;
+    transform: rotate(45deg);
+}
+p:hover{
+    font-size: 4rem;
+    color:blueviolet;
+    font-weight: 700;
+    text-transform: ;
+}
+/* .parent {
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    margin-top: 100px;
+    margin-left: 200px; */
+    /* transform: rotate(45deg); */
+    /* transform: translatex(500px);
+    transform:translatey(-10px); */
+    /* transform:translate(100px,100px); */
+    /* transform:scale(-0.5); */
+    /* transform:skew(30deg); 
+}
+    
+    .child{
+    width: 200px;
+    height:200px;
+    background-color: aqua;
+} */

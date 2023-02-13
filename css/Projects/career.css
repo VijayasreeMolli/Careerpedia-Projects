@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    border:2px solid red;
+    display:flex;
+    justify-content: space-between;
+    padding:2% 5%;
+}
+.navbar .item1{
+display:flex;
+gap:10px;
+
+}
+
+.navbar .image img{
+    width : 30%;
+    
+}

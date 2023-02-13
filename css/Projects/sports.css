@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+   
+ }
+body{
+    background-image: url("sports.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.box{
+    display: inline-block;
+    /* border: 2px solid red; */
+    height: 90vh;
+    width: 20%;
+    margin-left: 50px;
+    margin-top:100px;
+    margin-right:20px;
+}
+#box1:hover,#box2:hover,#box3:hover,#box4:hover{
+    transform: scale(2);
+}
+
+.img{
+    height: 200px;
+    width: 200px;
+    /* margin-top: 50px; */
+}
+.button{
+    color:blueviolet;
+    
+    border-radius: 5px;
+    border-color:ghostwhite;
+}
+a{
+    text-decoration: none;
+}
+ 
+ /* a:hover{
+    transform: scale(2);
+} 
+ #B1:hover{
+    transform: scale(2);
+} /*

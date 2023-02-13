@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    color:white;
+    
+}
+form{
+    margin: 100px;
+    padding:50px;
+    width: 400px;
+    background-color: darkcyan;
+    border:10px;
+    border-radius: 5px;
+    font-family: 'Noto Sans', sans-serif;
+}
+ form label{
+    display:block;
+    padding:2px;
+    /* border:2px solid blue; */
+    margin-bottom: 15px;
+    margin-top: 10px;
+    
+}
+form input{
+    border:none;
+    outline:none;
+    padding:3px 6px;
+    width:100%;
+    /* border: 5px solid red; */
+    border-radius:5px;
+}
+.B{
+    border:none;
+    outline:none;
+    padding:5px 10px;
+    margin:20px 10px;
+    width:80px;
+    height:25px;
+    border-radius:5px;
+    color:black;
+    background-color:yellow;
+}
+

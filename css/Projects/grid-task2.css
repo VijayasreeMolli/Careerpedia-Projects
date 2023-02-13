@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:brown; 
+}
+.item1 {
+    grid-area: header;
+}
+
+.item2 {
+    grid-area: article;
+}
+
+.item3 {
+    grid-area: section;
+}
+
+.item4 {
+    grid-area: aside;
+}
+
+.item5 {
+    grid-area: Main;
+}
+.item6 {
+    grid-area: footer;
+}
+
+.container {
+    width: 80%;
+    height: 80vh;
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'article article article section section aside'
+        'article article article Main Main aside'
+        'article article article Main Main aside'
+        'footer footer footer footer footer footer';
+    grid-gap: 10px;
+    background-color:slateblue;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.container .item1,.item2,.item3,.item4,.item5,.item6{
+    background-color:dodgerblue;
+    /* text-align: center; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 2rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}

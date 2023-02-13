@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #first{
+            grid-area: header;
+        }
+
+        #second {
+            grid-area: article;
+        }
+
+        #third{
+            grid-area: section;
+        }
+
+        #fourth {
+            grid-area: aside;
+        }
+
+        #fifth {
+            grid-area: Main;
+        }
+        #sixth{
+            grid-area: footer;
+        }
+
+        .container {
+            width: 80%;
+            height: 80vh;
+            display: grid;
+            grid-template-areas:
+                'header header header header header header'
+                'article article article section section aside'
+                'article article article Main Main aside'
+                'article article article Main Main aside'
+                'footer footer footer footer footer footer';
+            grid-gap: 10px;
+            background-color:yellowgreen;
+            padding: 1rem;
+            border-radius: 10px;
+        }
+
+        .container .item1,.item2,.item3,.item4,.item5,.item6{
+            background-color: #2196F3;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 2rem;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Sematic Elements using Grid:</h1>
+
+    <div class="container">
+        <div class="item1" id="first">Header</div>
+        <div class="item2" id="second">Article</div>
+        <div class="item3" id="third">Section</div>
+        <div class="item4" id="fourth">Aside</div>
+        <div class="item5" id="fifth">Main</div>
+        <div class="item6" id="sixth">Footer</div>
+    </div>
+
+</body>
+
+</html>

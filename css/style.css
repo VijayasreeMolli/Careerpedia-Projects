@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.img1{
+    width: 110px;
+    height: 110px;
+        background-color: aqua;
+        display: inline;
+}
+.img2{
+    width: 110px;
+    height: 110px;
+    background-color:aqua;
+    display:inline
+}
+.img3{
+    width: 110px;
+    height: 110px;
+    background-color: blueviolet;
+    display:inline
+}
+.img4{
+    width: 110px;
+    height: 110px;
+    background-color: blueviolet;
+    display:inline
+}

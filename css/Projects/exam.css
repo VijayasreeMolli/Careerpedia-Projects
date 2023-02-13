@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-1 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2% 3%;
+    /* border:2px solid red; */
+
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: #17388E;
+
+}
+
+.navbar h1 {
+    /* font-size: 2.5rem; */
+    letter-spacing: 0.01rem;
+    /* font-weight: bolder; */
+    font: bold 2.5rem Poppins;
+
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10rem;
+    list-style: none;
+    font: bold 1.5rem Poppins;
+}
+
+.hero-section {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.item-1 {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3%;
+    background-color: #17388e;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    font-family: bold, Poppins;
+
+}
+
+.item-1 img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+
+}
+
+.item-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.item-2a {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.part-2 {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.8rem;
+
+}
+
+.fname {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 3.5%;
+    font: normal 0.8rem Poppins;
+    border: 0.1rem solid #17388e;
+    border-radius: 0.3rem;
+
+}
+
+::placeholder {
+    color: #17388E;
+    opacity: 1;
+}
+
+#address {
+    resize: none;
+
+}
+
+.part-2a {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+
+.button-1 {
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+    padding: 4% 29%;
+    background-color: #17388e;
+    font: 600 1.2rem Poppins;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+
+.part-3 {
+    width: 30%;
+    height: 70vh;
+    gap: 1.5rem;
+    color: #FFFFFF;
+    background-color: #17388e;
+    padding: 3% 1%;
+    overflow-y: scroll;
+    font: normal 0.8rem Poppins;
+
+}
+
+.part-3a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.part-3b {
+    width: 100%;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 1.5rem;
+    border: 0.1rem solid rgb(255, 255, 255, 0.5);
+    padding: 8% 6%;
+
+}
+
+.part-3a-ptag {
+    opacity: 0.7;
+}
+
+
+
+
+
+.part-3a span {
+    display: block;
+}
+
+.button-2 {
+    border: none;
+    outline: none;
+    padding: 2% 6%;
+    background-color: #FFFFFF;
+    color: #17388e;
+    opacity: 1;
+    border-radius: 0.1rem;
+    font-weight: bold;
+}

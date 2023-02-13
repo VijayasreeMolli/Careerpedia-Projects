@@ -1,0 +1,36 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+form{
+    margin: 100px;
+    padding:50px;
+    width: 300px;
+    background-color: darkcyan;
+    border:10px;
+    border-radius: 5px;
+}
+ form label{
+    display:block;
+    margin: bottom 3px;
+    margin-top: 5px;
+    color:aqua;
+}
+form input{
+    border:none;
+    outline:none;
+    padding:3px 6px;
+    width:100%;
+    border-radius:5px;
+}
+form button{
+    border:none;
+    outline:none;
+    padding:5px 10px;
+    margin:20px 10px;
+    width:80px;
+    height:25px;
+    border-radius:5px;
+    background-color:  red;
+}

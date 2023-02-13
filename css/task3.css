@@ -1,0 +1,47 @@
+
+
+
+*{
+    background-color: darkkhaki;
+}
+.Players{
+    border-collapse: collapse;
+    /* border: 1px solid black; */
+    width: 50%;
+    height:50%;
+    text-align: left;
+    
+}
+.Players th{
+    color: brown;
+    background-color: gold;
+    font-size: smaller;
+    /* border: 1px solid black; */
+}
+.Players td{
+    color:blueviolet;
+    /* border: 1px solid black; */
+
+   
+}
+.img1{
+
+        display: inline;
+}
+.img2{
+    display: inline;
+}
+.img3{
+    display: inline;  
+}
+.img4{
+    display: inline;
+}
+
+thead, th, tr, td {
+    border: 2px solid black;
+}
+/* 
+.firstRow{
+    border: 2px solid red;
+} */

@@ -1,0 +1,28 @@
+
+
+*{
+    text-align: center;
+    background-color: brown;
+    /* padding: 0%;
+    margin: 0%; */
+}
+.name{
+    text-align: left;
+}
+
+.supermarket{
+    color:red;
+}
+.welcome{
+    color: yellow;
+}
+h2{
+    color:gray;
+}
+.last{
+    color: blue;
+    text-align: left;
+}
+p{
+    text-align: left;
+}
